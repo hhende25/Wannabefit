@@ -1,0 +1,318 @@
+﻿/** import google font
+
+of font family 'Open Sans', sans-serif
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 93%;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E9E9E9;
+    padding: 40px 0;
+}
+
+/* css for welcom text */
+
+.welcome {
+    margin: 50px 30px;
+    text-align: center;
+}
+
+    .welcome h3,
+    h2 {
+        margin-bottom: 20px;
+    }
+
+/*main navigation css*/
+
+.navigation {
+    background-color: #d4d4d4 !important;
+    height: 35px;
+    border-bottom: 1px solid #bababa;
+}
+
+    /*main navigation unorderlist css*/
+
+    .navigation ul {
+        padding: 0;
+        margin: 0;
+        width: auto;
+    }
+
+        .navigation ul li {
+            float: left;
+            text-align: left;
+            font-size: 93%;
+            list-style: none;
+            width: auto !important;
+            padding: 9px 15px;
+            border-right: 1px solid #bababa;
+        }
+
+            .navigation ul li a {
+                color: #3f3f3f;
+                text-decoration: none;
+            }
+
+                .navigation ul li a:visited,
+                a:active,
+                a:hover {
+                    color: #3f3f3f;
+                }
+
+            .navigation ul li:hover {
+                color: #f1f1f1;
+                background-color: #151515;
+                transition: .8s linear;
+                border-right: 1px solid #151515;
+            }
+
+                .navigation ul li:hover a {
+                    color: #f1f1f1;
+                }
+
+.body_content {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.spacial_project {
+    padding: 40px 30px;
+}
+
+    .spacial_project .content_box1 {
+        width: 65%;
+        display: inline-block;
+    }
+
+    .spacial_project .content_box2 {
+        width: 30%;
+        display: inline-block;
+        padding: 10px;
+        vertical-align: top;
+    }
+
+        .spacial_project .content_box2 img {
+            height: 300px;
+            height: 250px;
+        }
+
+        .spacial_project .content_box2 .div_top {
+            background-color: #9dd6f4;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+
+        .spacial_project .content_box2 .div_middle {
+            background-color: #ecdb7f;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+
+        .spacial_project .content_box2 .div_bottom {
+            background-color: #ecdb7f;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+
+footer {
+    background-color: #3f3f3f;
+}
+
+    footer .footer_content {
+        text-align: center;
+        padding: 15px 0;
+        color: #fff;
+    }
+
+/*resume page*/
+
+.heading {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #E9E9E9;
+    margin: 20px 0 40px 0;
+}
+
+/*contact page*/
+
+.contact_form {
+}
+
+/*css to set the textbox */
+
+.txtbox {
+    width: 80%;
+    height: 35px;
+    border: 1px solid #bababa;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+/*css for text box area on contact us page*/
+
+.txtboxarea {
+    width: 80%;
+    height: 80px;
+    border: 1px solid #bababa;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+/*css to set the button*/
+
+.btn {
+    background-color: #ff6a00;
+    color: #fff;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.reach_us h3,
+p {
+    margin-bottom: 8px;
+}
+
+/*css to set the banner image height and width*/
+
+.banner img {
+    height: 300px !important;
+    width: 100%;
+}
+
+.banner-section {
+    padding: 15px 0;
+    background-color: #000;
+}
+
+/* css for services page with services class
+
+set the margin bottom of h3 tag
+
+*/
+
+.services h3 {
+    margin-bottom: 15px;
+}
+
+/* css for footer navigations*/
+
+.footer_navigation ul {
+    display: inline-block
+}
+
+    .footer_navigation ul li {
+        text-decoration: none;
+        list-style-type: none;
+        display: inline-block;
+        padding: 0 15px;
+    }
+
+        .footer_navigation ul li a {
+            text-decoration: none;
+            color: #f1f1f1;
+            float: left;
+        }
+
+            .footer_navigation ul li a:link {
+                color: #f1f1f1;
+            }
+
+            .footer_navigation ul li a:hover {
+                color: #ff6a00;
+            }
+
+            .footer_navigation ul li a:active {
+                color: #0026ff;
+            }
+
+/*css for container*/
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*css for set column width*/
+
+.one-third {
+    width: 47.5%;
+}
+
+.one-third-second {
+    margin: 0;
+}
+
+.one-third-last {
+    float: none;
+    width: auto;
+    padding: 20px 0 0 0;
+}
+
+/*css for navigation*/
+
+.navigation ul li {
+    width: 25%;
+}
+
+/*css for box*/
+
+.box {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+    .box img {
+        height: 200px;
+        width: 300px;
+    }
+
+.disclaimer {
+    color: #fff;
+    margin-top: 10px;
+}
+
+/*css to set the css for screen size and make website responsive*/
+
+@media only screen and (max-width:620) {
+
+    .navigation ul li {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width:500) {
+
+    .navigation ul li {
+        width: 50%;
+        font-size: 85%;
+    }
+}
+
+=
